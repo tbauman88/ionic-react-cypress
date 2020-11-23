@@ -127,7 +127,6 @@ const SchedulePage: React.FC<SchedulePageProps> = ({ favoritesSchedule, schedule
           hide={segment === 'favorites'}
         />
         <SessionList
-          // schedule={schedule}
           schedule={favoritesSchedule}
           listType={segment}
           hide={segment === 'all'}

@@ -20,19 +20,19 @@
           "time": "9:15 am",
           "sessions": [
             {
-              "name": "Getting Started with Ionic",
+              "name": "Getting Started with NX",
               "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
               "speakerNames": ["Mike King"],
               "timeStart": "9:30 am",
               "timeEnd": "9:45 am",
-              "tracks": ["Ionic"],
+              "tracks": ["React"],
               "id": "2"
             },
             {
-              "name": "Ionic Tooling",
+              "name": "React Tooling",
               "location": "Executive Ballroom",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
               "speakerNames": ["Attila Komaromi"],
               "timeStart": "9:45 am",
               "timeEnd": "10:00 am",
@@ -40,13 +40,13 @@
               "id": "3"
             },
             {
-              "name": "University of Ionic",
+              "name": "University of TypeScript",
               "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
               "speakerNames": ["Dan Fletcher"],
               "timeStart": "9:15 am",
               "timeEnd": "9:30 am",
-              "tracks": ["Ionic"],
+              "tracks": ["Tooling"],
               "id": "4"
             }
           ]
@@ -55,43 +55,43 @@
           "time": "10:00 am",
           "sessions": [
             {
-              "name": "Migrating to Ionic",
+              "name": "Migrating WordPress to Laravel",
               "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Colin DeCarlo", "Brian Hogg"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Colin DeCarlo"],
               "timeStart": "10:00 am",
               "timeEnd": "10:15 am",
-              "tracks": ["Ionic"],
+              "tracks": ["Laravel"],
               "id": "5"
             },
             {
-              "name": "What's New in Angular",
+              "name": "What's New in Vue",
               "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Attila Komaromi"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Josh Gaber"],
               "timeStart": "10:15 am",
               "timeEnd": "10:30 am",
-              "tracks": ["Angular"],
+              "tracks": ["Vue"],
               "id": "6"
             },
             {
-              "name": "The Evolution of Ionicons",
+              "name": "The Evolution of Design",
               "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Darren Galway", "Colin DeCarlo"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Tuan Truong"],
               "timeStart": "10:15 am",
               "timeEnd": "10:30 am",
               "tracks": ["Design"],
               "id": "7"
             },
             {
-              "name": "Ionic Pro",
+              "name": "Laravel Dusk",
               "location": "Grand Ballroom A",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Lucas Gladding"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Dan Soppelsa"],
               "timeStart": "10:45 am",
               "timeEnd": "11:00 am",
-              "tracks": ["Services"],
+              "tracks": ["Laravel"],
               "id": "8"
             }
           ]
@@ -100,10 +100,10 @@
           "time": "11:00 am",
           "sessions": [
             {
-              "name": "Ionic Workshop",
+              "name": "Testing Libraries",
               "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Josh Gaber", "Brian Hogg"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Lucas Gladding"],
               "timeStart": "11:00 am",
               "timeEnd": "11:45 am",
               "tracks": ["Workshop"],
@@ -112,21 +112,21 @@
             {
               "name": "Community Interaction",
               "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Brian Hogg", "Dan Soppelsa"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Grant Lovell"],
               "timeStart": "11:30 am",
               "timeEnd": "11:50 am",
               "tracks": ["Communication"],
               "id": "10"
             },
             {
-              "name": "Navigation in Ionic",
+              "name": "Mob Programming with MobTime",
               "location": "Grand Ballroom A",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Attila Komaromi", "Colin DeCarlo"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Alex Barry"],
               "timeStart": "11:30 am",
               "timeEnd": "12:00 pm",
-              "tracks": ["Navigation"],
+              "tracks": ["Workshop"],
               "id": "11"
             }
           ]
@@ -149,33 +149,33 @@
           "time": "1:00 pm",
           "sessions": [
             {
-              "name": "Ionic in the Enterprise",
+              "name": "React Native in the Enterprise",
               "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Alex Barry"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Justin Buchanan"],
               "timeStart": "1:00 pm",
               "timeEnd": "1:15 pm",
-              "tracks": ["Communication"],
+              "tracks": ["React"],
               "id": "13"
             },
             {
-              "name": "Ionic Worldwide",
+              "name": "React Testing Library",
               "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Dan Soppelsa"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Deep Panchal"],
               "timeStart": "1:15 pm",
               "timeEnd": "1:30 pm",
-              "tracks": ["Communication"],
+              "tracks": ["Tooling"],
               "id": "14"
             },
             {
-              "name": "The Ionic Package",
+              "name": "React Query",
               "location": "Grand Ballroom B",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Adam Frank", "Justin Buchanan"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Joel Podrebarac"],
               "timeStart": "1:30 pm",
               "timeEnd": "2:00 pm",
-              "tracks": ["Services"],
+              "tracks": ["React"],
               "id": "15"
             }
           ]
@@ -186,28 +186,28 @@
             {
               "name": "Push Notifications in Ionic",
               "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Justin Buchanan", "Lucas Gladding"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Tyler Bauman"],
               "timeStart": "2:00 pm",
               "timeEnd": "2:30 pm",
-              "tracks": ["Services"],
+              "tracks": ["Ionic"],
               "id": "16"
             },
             {
-              "name": "Ionic Documentation",
+              "name": "Shopify Polaris",
               "location": "Grand Ballroom B",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Grant Lovell"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Brian Hogg"],
               "timeStart": "2:30 pm",
               "timeEnd": "2:45 pm",
-              "tracks": ["Documentation"],
+              "tracks": ["Design"],
               "id": "17"
             },
             {
-              "name": "UX in Ionic",
+              "name": "UX in Storybook",
               "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Darren Galway", "Dan Fletcher"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Darren Galway"],
               "timeStart": "2:45 pm",
               "timeEnd": "3:00 pm",
               "tracks": ["Design"],
@@ -219,23 +219,23 @@
           "time": "3:00",
           "sessions": [
             {
-              "name": "Angular Directives in Ionic",
+              "name": "Vue Ionic",
               "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Mike King"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Felipe Flor"],
               "timeStart": "3:00 pm",
               "timeEnd": "3:30 pm",
-              "tracks": ["Angular"],
+              "tracks": ["Ionic"],
               "id": "19"
             },
             {
-              "name": "Mobile States",
+              "name": "Tailwind in Vue",
               "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Attila Komaromi"],
+              "description": "Test-driven developers who focus on writing clean, maintainable code. Our developers are constantly learning new techniques and concepts that put them ahead of the game, and can help share that knowledge with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish the opportunity to teach and learn with our peers.",
+              "speakerNames": ["Adam Frank"],
               "timeStart": "3:30 pm",
               "timeEnd": "3:45 pm",
-              "tracks": ["Navigation"],
+              "tracks": ["Vue"],
               "id": "20"
             }
           ]
@@ -248,8 +248,8 @@
     {
       "name": "Justin Buchanan",
       "profilePic": "https://vehikl.com/team/justin-buchanan.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Burt is a Bear. Burt's interests include poetry, dashing space heroes, and lions.",
       "title": "Software Engineer",
       "location": "Everywhere",
@@ -260,8 +260,8 @@
     {
       "name": "Lucas Gladding",
       "profilePic": "https://vehikl.com/team/lucas-gladding.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Charlie is a Cheetah. Charlie's interests include country music, plush animals, pyrotechnics, and skeletons.",
       "title": "Software Engineer",
       "location": "Everywhere",
@@ -272,8 +272,8 @@
     {
       "name": "Grant Lovell",
       "profilePic": "https://vehikl.com/team/grant-lovell.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Donald is a Duck. Donald's interests include carpentry, superheroes, merpeople, and glam rock.",
       "title": "Software Engineer",
       "location": "Everywhere",
@@ -284,8 +284,8 @@
     {
       "name": "Colin DeCarlo",
       "profilePic": "https://vehikl.com/team/colin-decarlo.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Eva is an Eagle. Eva's interests include ants, seashells, and cupcakes.",
       "title": "Developer Advocate",
       "location": "Everywhere",
@@ -296,8 +296,8 @@
     {
       "name": "Dan Fletcher",
       "profilePic": "https://vehikl.com/team/dan-fletcher.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Ellie is an Elephant. Ellie's interests include pocket watches, pool, hand fans, and ninjas.",
       "title": "Software Engineer",
       "location": "Everywhere",
@@ -308,8 +308,8 @@
     {
       "name": "Dan Soppelsa",
       "profilePic": "https://vehikl.com/team/dan-soppelsa.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Gino is a Giraffe. Gino's interests include candy-making, unicorns, and birdhouses.",
       "title": "Software Engineer",
       "location": "Everywhere",
@@ -320,10 +320,10 @@
     {
       "name": "Darren Galway",
       "profilePic": "https://vehikl.com/team/darren-galway.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Isabella is an Iguana. Isabella's interests include crystals, architecture, and candle-making.",
-      "title": "Software Engineer",
+      "title": "Design Advocate",
       "location": "Everywhere",
       "email": "darren@example.com",
       "phone": "+1-555-200-5520",
@@ -332,8 +332,8 @@
     {
       "name": "Josh Gaber",
       "profilePic": "https://vehikl.com/team/josh-gaber.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Karl is a Kitten. Karl's interests include skiing, jewelry, and needlepoint.",
       "title": "Developer Advocate",
       "location": "Everywhere",
@@ -344,8 +344,8 @@
     {
       "name": "Brian Hogg",
       "profilePic": "https://vehikl.com/team/brian-hogg.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Lionel is a Lion. Lionel's interests include lizards and mathematics.",
       "title": "Developer Advocate",
       "location": "Everywhere",
@@ -356,8 +356,8 @@
     {
       "name": "Adam Frank",
       "profilePic": "https://vehikl.com/team/adam-frank.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Molly is a Mouse. Molly's interests include werewolves and magic.",
       "title": "Software Engineer",
       "location": "Everywhere",
@@ -368,8 +368,8 @@
     {
       "name": "Alex Barry",
       "profilePic": "https://vehikl.com/team/alex-barry.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Paul is a Puppy. Paul's interests include maps, whales, and dragons.",
       "title": "Software Engineer",
       "location": "Everywhere",
@@ -380,10 +380,10 @@
     {
       "name": "Attila Komaromi",
       "profilePic": "https://vehikl.com/team/attila-komaromi.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Rachel is a Rabbit. Rachel's interests include clowns, skeletons, and yo-yos.",
-      "title": "Senior Software Engineer",
+      "title": "Software Engineer",
       "location": "Everywhere",
       "email": "attila@example.com",
       "phone": "+1-555-200-5520",
@@ -392,14 +392,74 @@
     {
       "name": "Mike King",
       "profilePic": "https://vehikl.com/team/mike-king.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
       "about": "Ted is a Turtle. Ted's interests include butterflies, skiing, and cupcakes.",
       "title": "Software Engineer",
       "location": "Everywhere",
       "email": "mike@example.com",
       "phone": "+1-555-200-5520",
       "id": "13"
+    },
+    {
+      "name": "Felipe Flor",
+      "profilePic": "https://vehikl.com/team/felipe-flor.jpg",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
+      "about": "Ted is a Turtle. Ted's interests include butterflies, skiing, and cupcakes.",
+      "title": "Software Engineer",
+      "location": "Everywhere",
+      "email": "felipe@example.com",
+      "phone": "+1-555-200-5520",
+      "id": "14"
+    },
+    {
+      "name": "Joel Podrebarac",
+      "profilePic": "https://vehikl.com/team/joel-podrebarac.jpg",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
+      "about": "Ted is a Turtle. Ted's interests include butterflies, skiing, and cupcakes.",
+      "title": "Software Engineer",
+      "location": "Everywhere",
+      "email": "joel@example.com",
+      "phone": "+1-555-200-5520",
+      "id": "15"
+    },
+    {
+      "name": "Tuan Truong",
+      "profilePic": "https://vehikl.com/team/tuan-truong.jpg",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
+      "about": "Ted is a Turtle. Ted's interests include butterflies, skiing, and cupcakes.",
+      "title": "Design Advocate",
+      "location": "Everywhere",
+      "email": "tuan@example.com",
+      "phone": "+1-555-200-5520",
+      "id": "16"
+    },
+    {
+      "name": "Tyler Bauman",
+      "profilePic": "https://vehikl.com/team/tyler-bauman.jpg",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
+      "about": "Ted is a Turtle. Ted's interests include butterflies, skiing, and cupcakes.",
+      "title": "Software Engineer",
+      "location": "Everywhere",
+      "email": "tyler@example.com",
+      "phone": "+1-555-200-5520",
+      "id": "17"
+    },
+    {
+      "name": "Deep Panchal",
+      "profilePic": "https://vehikl.com/team/deep-panchal.jpg",
+      "instagram": "vehiklteam",
+      "twitter": "vehikl",
+      "about": "Ted is a Turtle. Ted's interests include butterflies, skiing, and cupcakes.",
+      "title": "Design Engineer",
+      "location": "Everywhere",
+      "email": "deep@example.com",
+      "phone": "+1-555-200-5520",
+      "id": "18"
     }
   ],
 
@@ -411,7 +471,7 @@
       "center": true
     },
     {
-      "name": "Ionic HQ",
+      "name": "Vehikl HQ",
       "lat": 43.074395,
       "lng": -89.381056
     },
@@ -423,45 +483,14 @@
   ],
 
   "tracks": [
-    {
-      "name": "Angular",
-      "icon": "logo-angular"
-    },
-    {
-      "name": "Documentation",
-      "icon": "document"
-    },
-    {
-      "name": "Food",
-      "icon": "restaurant"
-    },
-    {
-      "name": "Ionic",
-      "icon": "logo-ionic"
-    },
-    {
-      "name": "Tooling",
-      "icon": "hammer"
-    },
-    {
-      "name": "Design",
-      "icon": "color-palette"
-    },
-    {
-      "name": "Services",
-      "icon": "cog"
-    },
-    {
-      "name": "Workshop",
-      "icon": "construct"
-    },
-    {
-      "name": "Communication",
-      "icon": "call"
-    },
-    {
-      "name": "Navigation",
-      "icon": "compass"
-    }
+    { "name": "Food" },
+    { "name": "Communication" },
+    { "name": "Tooling" },
+    { "name": "Design" },
+    { "name": "Vue" },
+    { "name": "React" },
+    { "name": "Laravel" },
+    { "name": "Workshop" },
+    { "name": "Ionic" }
   ]
 }

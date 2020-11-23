@@ -57,6 +57,7 @@ const SessionListItem: React.FC<SessionListItemProps> = ({ isFavorite, onAddFavo
       <IonItem routerLink={`/tabs/schedule/${session.id}`}>
         <IonLabel>
           <h3>{session.name}</h3>
+          <p>{session.speakerNames}</p>
           <p>
             {session.timeStart}&mdash;&nbsp;
             {session.timeStart}&mdash;&nbsp;

@@ -23,14 +23,14 @@ const Tutorial: React.FC<TutorialProps> = ({ history, setHasSeenTutorial, setMen
   useIonViewWillEnter(() => {
     setMenuEnabled(false);
   });
-  
-  const startApp = async () => { 
+
+  const startApp = async () => {
     await setHasSeenTutorial(true);
     await setMenuEnabled(true);
     history.push('/tabs/schedule', { direction: 'none' });
   };
 
-  const handleSlideChangeStart = () => { 
+  const handleSlideChangeStart = () => {
     slideRef.current!.isEnd().then(isEnd => setShowSkip(!isEnd));
   };
 
@@ -52,7 +52,7 @@ const Tutorial: React.FC<TutorialProps> = ({ history, setHasSeenTutorial, setMen
               Welcome to <b>ICA</b>
             </h2>
             <p>
-              The <b>ionic conference app</b> is a practical preview of the ionic framework in action, and a demonstration of proper code use.
+              The <b>Vehikl Conf</b> is a practical preview of the ionic framework in action, and a demonstration of proper code use.
             </p>
           </IonSlide>
 

@@ -10,8 +10,8 @@ const About: React.FC<AboutProps> = () => {
 
   const [showPopover, setShowPopover] = useState(false);
   const [popoverEvent, setPopoverEvent] = useState();
-  const [location, setLocation] = useState<'madison' | 'austin' | 'chicago' | 'seattle'>('madison');
-  const [conferenceDate, setConferenceDate] = useState('2047-05-17T00:00:00-05:00');
+  const [location, setLocation] = useState<'madison' | 'austin' | 'chicago' | 'seattle'>('seattle');
+  const [conferenceDate, setConferenceDate] = useState('2021-05-18T00:00:00-05:00');
 
   const selectOptions = {
     header: 'Select a Location'
@@ -66,7 +66,7 @@ const About: React.FC<AboutProps> = () => {
           <h3 className="ion-padding-top ion-padding-start">About</h3>
 
           <p className="ion-padding-start ion-padding-end">
-            The Ionic Conference is a one-day conference on { displayDate(conferenceDate, 'mediumDate') } featuring talks from the Ionic team. It is focused on Ionic applications being built with Ionic Framework. This includes migrating apps to the latest version of the framework, Angular concepts, Webpack, Sass, and many other technologies used in Ionic 2. Tickets are completely sold out, and we’re expecting more than 1000 developers – making this the largest Ionic conference ever!
+            The Vehikl Conference is a one-day conference on { displayDate(conferenceDate, 'mediumDate') } featuring talks from Vehikl team. It is focused on applications being built with React, Vue, and PHP. This includes migrating apps to the latest version of the framework, concepts, testing, and many other technologies used at Vehikl. Tickets are completely sold out, and we’re expecting more than 1000 developers – making this the largest Vehikl conference ever!
           </p>
 
           <h3 className="ion-padding-top ion-padding-start">Details</h3>
@@ -104,7 +104,7 @@ const About: React.FC<AboutProps> = () => {
                 Wifi network
               </IonLabel>
               <IonLabel className="ion-text-end">
-                ica{ displayDate(conferenceDate, 'y') }
+                vehikl{ displayDate(conferenceDate, 'y') }
               </IonLabel>
             </IonItem>
             <IonItem>
@@ -112,7 +112,7 @@ const About: React.FC<AboutProps> = () => {
                Password
               </IonLabel>
               <IonLabel className="ion-text-end">
-                makegoodthings
+                MakeTestingGreatAgain!
               </IonLabel>
             </IonItem>
           </IonList>
