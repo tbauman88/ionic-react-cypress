@@ -39,7 +39,7 @@ const Tutorial: React.FC<TutorialProps> = ({ history, setHasSeenTutorial, setMen
       <IonHeader no-border>
         <IonToolbar>
           <IonButtons slot="end">
-            {showSkip && <IonButton color='primary' onClick={startApp}>Skip</IonButton>}
+            {showSkip && <IonButton data-cy='button-skip' color='primary' onClick={startApp}>Skip</IonButton>}
           </IonButtons>
         </IonToolbar>
       </IonHeader>

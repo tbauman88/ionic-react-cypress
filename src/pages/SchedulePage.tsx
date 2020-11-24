@@ -57,10 +57,10 @@ const SchedulePage: React.FC<SchedulePageProps> = ({ favoritesSchedule, schedule
           }
           {ios &&
             <IonSegment value={segment} onIonChange={(e) => setSegment(e.detail.value as any)}>
-              <IonSegmentButton value="all">
+              <IonSegmentButton data-cy='segment-all' value="all">
                 All
               </IonSegmentButton>
-              <IonSegmentButton value="favorites">
+              <IonSegmentButton data-cy='segment-favorites' value="favorites">
                 Favorites
               </IonSegmentButton>
             </IonSegment>
@@ -89,10 +89,10 @@ const SchedulePage: React.FC<SchedulePageProps> = ({ favoritesSchedule, schedule
         {!ios &&
           <IonToolbar>
             <IonSegment value={segment} onIonChange={(e) => setSegment(e.detail.value as any)}>
-              <IonSegmentButton value="all">
+              <IonSegmentButton data-cy='segment-all' value="all">
                 All
               </IonSegmentButton>
-              <IonSegmentButton value="favorites">
+              <IonSegmentButton data-cy='segment-favorites' value="favorites">
                 Favorites
               </IonSegmentButton>
             </IonSegment>

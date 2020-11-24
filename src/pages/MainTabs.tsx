@@ -30,19 +30,19 @@ const MainTabs: React.FC<MainTabsProps> = () => {
         <Route path="/tabs/about" render={() => <About />} exact={true} />
       </IonRouterOutlet>
       <IonTabBar slot="bottom">
-        <IonTabButton tab="schedule" href="/tabs/schedule">
+        <IonTabButton data-cy='tab-schedule' tab="schedule" href="/tabs/schedule">
           <IonIcon icon={calendar} />
           <IonLabel>Schedule</IonLabel>
         </IonTabButton>
-        <IonTabButton tab="speakers" href="/tabs/speakers">
+        <IonTabButton data-cy='tab-speakers' tab="speakers" href="/tabs/speakers">
           <IonIcon icon={people} />
           <IonLabel>Speakers</IonLabel>
         </IonTabButton>
-        <IonTabButton tab="map" href="/tabs/map">
+        <IonTabButton data-cy='tab-map' tab="map" href="/tabs/map">
           <IonIcon icon={location} />
           <IonLabel>Map</IonLabel>
         </IonTabButton>
-        <IonTabButton tab="about" href="/tabs/about">
+        <IonTabButton data-cy='tab-about' tab="about" href="/tabs/about">
           <IonIcon icon={informationCircle} />
           <IonLabel>About</IonLabel>
         </IonTabButton>
