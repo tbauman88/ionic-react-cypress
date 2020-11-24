@@ -79,7 +79,7 @@ const SchedulePage: React.FC<SchedulePageProps> = ({ favoritesSchedule, schedule
               </IonButton>
             }
             {!showSearchbar &&
-              <IonButton onClick={() => setShowFilterModal(true)}>
+              <IonButton data-cy="show-filters-icon" onClick={() => setShowFilterModal(true)}>
                 {mode === 'ios' ? 'Filter' : <IonIcon icon={options} slot="icon-only" />}
               </IonButton>
             }

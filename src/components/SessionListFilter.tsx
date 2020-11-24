@@ -65,7 +65,7 @@ const SessionListFilter: React.FC<SessionListFilterProps> = ({ allTracks, filter
               <IonButton onClick={onDismissModal}>Cancel</IonButton>
             }
             { !ios &&
-              <IonButton onClick={handleDeselectAll}>Reset</IonButton>
+              <IonButton data-cy="reset-button" onClick={handleDeselectAll}>Reset</IonButton>
             }
           </IonButtons>
 
@@ -74,7 +74,7 @@ const SessionListFilter: React.FC<SessionListFilterProps> = ({ allTracks, filter
           </IonTitle>
 
           <IonButtons slot="end">
-            <IonButton onClick={onDismissModal} strong>Done</IonButton>
+            <IonButton data-cy="done-button" onClick={onDismissModal} strong>Done</IonButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
@@ -90,6 +90,7 @@ const SessionListFilter: React.FC<SessionListFilterProps> = ({ allTracks, filter
               }
               <IonLabel>{track}</IonLabel>
               <IonCheckbox
+                data-cy={`${track}-filter`}
                 onClick={() => toggleTrackFilter(track)}
                 checked={filteredTracks.indexOf(track) !== -1}
                 color="primary"
