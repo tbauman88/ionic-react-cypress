@@ -44,12 +44,68 @@ context('Scheduled Page', () => {
       .should('include.text', 'Laravel Dusk')
   })
 
-  it('will display the filter options modal upon click', () => {
-    cy.get('[data-cy=show-filters-icon]').click();
+  it('will display the correct filtered sessions', () => {
+    cy.get('[data-cy=filter-icon]').click();
     cy.get('[data-cy=reset-button]').click();
     cy.get('[data-cy=Food-filter]').click();
     cy.get('[data-cy=React-filter]').click();
     cy.get('[data-cy=done-button]').click();
     cy.get('[data-cy*=session-]').parent().should('have.class', 'track-food')
   });
+
+  it('will display "no sessions found" when no tracks selected to filter', () => {
+    cy.get('[data-cy=filter-icon]').click();
+    cy.get('[data-cy=reset-button]').click();
+    cy.get('[data-cy=Food-filter]').click();
+    cy.get('[data-cy=Food-filter]').click();
+    cy.get('[data-cy=done-button]').click();
+
+    cy.get('[data-cy=no-sessions-found]').should('be.visible');
+  })
+
+  it('will display correct search results', () => {
+    const searchTerm = 'React';
+    cy.get('[data-cy=search-icon]').click();
+    cy.get('[data-cy=search-bar]').type(searchTerm);
+
+    cy.get('[data-cy=no-sessions-found]').should('not.be.visible');
+
+    cy.get('[data-cy*=session-]').parent().should('include.text', searchTerm)
+  })
+
+  it('will display "no sessions found" when no search results', () => {
+    cy.get('[data-cy=search-icon]').click();
+    cy.get('[data-cy=search-bar]').type('there should be no results');
+
+    cy.get('[data-cy=no-sessions-found]').should('be.visible');
+    cy.get('[data-cy*=session-]').should('have.length', 0)
+  });
+
+  it('will bring me to the session detail page when item is clicked from the schedule', () => {
+    cy.get('[data-cy=session-1]').click({ force: true }).url().should('include', '/1')
+  })
+  
+  it('will display all social media links when share button is clicked', () => {
+    cy.get('[data-cy=share-social-icon]').click()
+    cy.get('[data-cy=share-on-vimeo]').should('be.visible')
+    cy.get('[data-cy=share-on-instagram]').should('be.visible')
+    cy.get('[data-cy=share-on-twitter]').should('be.visible')
+    cy.get('[data-cy=share-on-facebook]').should('be.visible')
+  })
+
+  it('will add session to favourites list when item is slid', () => {
+    cy.get('[data-cy=search-icon]').click();
+    cy.get('[data-cy=search-bar]').type('Breakfast').wait(300);
+    
+    cy.get('[data-cy=session-1]')
+      .trigger('mousedown', { button: 0 })
+      .trigger('mousemove', 'right', { animationDistanceThreshold: 10 } )
+      .trigger('mousemove', 'center', { animationDistanceThreshold: 10 })
+      .wait(100)
+      .trigger('mouseup')
+
+    cy.contains('Favourite').should('be.visible')
+  });
+
+  xit('will remove session from favourites when item is slid', () => {})
 })

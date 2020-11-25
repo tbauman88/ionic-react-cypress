@@ -69,17 +69,17 @@ const SchedulePage: React.FC<SchedulePageProps> = ({ favoritesSchedule, schedule
             <IonTitle>Schedule</IonTitle>
           }
           {showSearchbar &&
-            <IonSearchbar showCancelButton="always" placeholder="Search" onIonChange={(e: CustomEvent) => setSearchText(e.detail.value)} onIonCancel={() => setShowSearchbar(false)}></IonSearchbar>
+            <IonSearchbar data-cy="search-bar" showCancelButton="always" placeholder="Search" onIonChange={(e: CustomEvent) => setSearchText(e.detail.value)} onIonCancel={() => setShowSearchbar(false)}></IonSearchbar>
           }
 
           <IonButtons slot="end">
             {!ios && !showSearchbar &&
-              <IonButton onClick={() => setShowSearchbar(true)}>
+              <IonButton data-cy="search-icon" onClick={() => setShowSearchbar(true)}>
                 <IonIcon slot="icon-only" icon={search}></IonIcon>
               </IonButton>
             }
             {!showSearchbar &&
-              <IonButton data-cy="show-filters-icon" onClick={() => setShowFilterModal(true)}>
+              <IonButton data-cy="filter-icon" onClick={() => setShowFilterModal(true)}>
                 {mode === 'ios' ? 'Filter' : <IonIcon icon={options} slot="icon-only" />}
               </IonButton>
             }
@@ -145,7 +145,7 @@ const SchedulePage: React.FC<SchedulePageProps> = ({ favoritesSchedule, schedule
         />
       </IonModal>
 
-      <ShareSocialFab />
+      <ShareSocialFab/>
 
     </IonPage>
   );

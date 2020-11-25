@@ -37,7 +37,7 @@ const SessionList: React.FC<SessionListProps> = ({ addFavorite, removeFavorite, 
   if (schedule.groups.length === 0 && !hide) {
     return (
       <IonList>
-        <IonListHeader>
+        <IonListHeader data-cy="no-sessions-found">
           No Sessions Found
         </IonListHeader>
       </IonList>
