@@ -67,11 +67,11 @@ const SessionListItem: React.FC<SessionListItemProps> = ({ isFavorite, onAddFavo
       </IonItem>
       <IonItemOptions>
         {listType === "favorites" ?
-          <IonItemOption color="danger" onClick={() => removeFavoriteSession()}>
+          <IonItemOption data-cy={`favorite-remove-${session.id}`} color="danger" onClick={() => removeFavoriteSession()}>
             Remove
           </IonItemOption>
           :
-          <IonItemOption color="favorite" onClick={addFavoriteSession}>
+          <IonItemOption data-cy={`favorite-add-${session.id}`} color="favorite" onClick={addFavoriteSession}>
             Favorite
           </IonItemOption>
         }

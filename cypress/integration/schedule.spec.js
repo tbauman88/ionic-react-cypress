@@ -1,3 +1,4 @@
+import 'cy-mobile-commands'
 /// <reference types="cypress" />
 
 context('Scheduled Page', () => {
@@ -84,7 +85,7 @@ context('Scheduled Page', () => {
   it('will bring me to the session detail page when item is clicked from the schedule', () => {
     cy.get('[data-cy=session-1]').click({ force: true }).url().should('include', '/1')
   })
-  
+
   it('will display all social media links when share button is clicked', () => {
     cy.get('[data-cy=share-social-icon]').click()
     cy.get('[data-cy=share-on-vimeo]').should('be.visible')
@@ -94,18 +95,35 @@ context('Scheduled Page', () => {
   })
 
   it('will add session to favourites list when item is slid', () => {
+    cy.visitMobile('/tabs/schedule')
     cy.get('[data-cy=search-icon]').click();
-    cy.get('[data-cy=search-bar]').type('Breakfast').wait(300);
-    
-    cy.get('[data-cy=session-1]')
-      .trigger('mousedown', { button: 0 })
-      .trigger('mousemove', 'right', { animationDistanceThreshold: 10 } )
-      .trigger('mousemove', 'center', { animationDistanceThreshold: 10 })
-      .wait(100)
-      .trigger('mouseup')
-
-    cy.contains('Favourite').should('be.visible')
+    cy.get('[data-cy=session-1]').swipe('right', 'left')
+    cy.get('[data-cy=favorite-add-1]').should('be.visible').click({ force: true })
+    cy.get('.alert-button').click()
+    cy.get('[data-cy=segment-favorites]').click()
+    cy.get('[data-cy*=session-] > ion-label').should('include.text', 'React Tooling')
   });
 
-  xit('will remove session from favourites when item is slid', () => {})
+  it('will remove session from favourites when item is slid', () => {
+    const parentClasses = 'ion-list[style=""] > .item-group-md > .track-tooling'
+
+    // Add favourite
+    cy.visitMobile('/tabs/schedule')
+    cy.get('[data-cy=search-icon]').click();
+    cy.get('[data-cy=session-3]').swipe('right', 'left')
+    cy.get('[data-cy=favorite-add-3]').should('be.visible').click({ force: true })
+    cy.get('.alert-button').click()
+    cy.get('[data-cy=segment-favorites]').click()
+
+    // Remove favourite
+    cy.get(`${parentClasses} > [data-cy=session-3]`).swipe('right', 'left')
+
+    cy.get(`${parentClasses} > .item-options-md > [data-cy=favorite-remove-3]`)
+      .should('be.visible')
+      .click({ multiple: true })
+
+    cy.get('.alert-button').contains('Remove').click()
+    cy.get('[data-cy=session-3]').should('not.be.visible')
+    cy.get('[data-cy=no-sessions-found]').should('be.visible');
+  })
 })
