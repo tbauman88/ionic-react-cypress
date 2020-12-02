@@ -48,13 +48,13 @@ const Support: React.FC<SupportProps> = () => {
           <IonList>
             <IonItem>
               <IonLabel position="stacked" color="primary">Enter your support message below</IonLabel>
-              <IonTextarea name="message" value={message} spellCheck={false} autocapitalize="off" rows={6} onIonChange={e => setMessage(e.detail.value!)}
+              <IonTextarea data-cy="support-message" name="message" value={message} spellCheck={false} autocapitalize="off" rows={6} onIonChange={e => setMessage(e.detail.value!)}
                 required>
               </IonTextarea>
             </IonItem>
 
             {formSubmitted && messageError && <IonText color="danger">
-              <p className="ion-padding-start">
+              <p data-cy="support-error" className="ion-padding-start">
                 Support message is required
               </p>
             </IonText>}
@@ -62,7 +62,7 @@ const Support: React.FC<SupportProps> = () => {
 
           <IonRow>
             <IonCol>
-              <IonButton type="submit" expand="block">Submit</IonButton>
+              <IonButton data-cy="support-submit" type="submit" expand="block">Submit</IonButton>
             </IonCol>
           </IonRow>
         </form>
@@ -71,6 +71,7 @@ const Support: React.FC<SupportProps> = () => {
      
       <IonToast
         isOpen={showToast}
+        data-cy="toast"
         duration={3000}
         message="Your support request has been sent"
         onDidDismiss={() => setShowToast(false)} />
