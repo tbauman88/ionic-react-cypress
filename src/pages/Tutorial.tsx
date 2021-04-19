@@ -39,14 +39,14 @@ const Tutorial: React.FC<TutorialProps> = ({ history, setHasSeenTutorial, setMen
       <IonHeader no-border>
         <IonToolbar>
           <IonButtons slot="end">
-            {showSkip && <IonButton color='primary' onClick={startApp}>Skip</IonButton>}
+            {showSkip && <IonButton data-testid='button-skip' color='primary' onClick={startApp}>Skip</IonButton>}
           </IonButtons>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
 
-        <IonSlides ref={slideRef} onIonSlideWillChange={handleSlideChangeStart} pager={false}>
-          <IonSlide>
+        <IonSlides data-testid="tutorial-slides" ref={slideRef} onIonSlideWillChange={handleSlideChangeStart} pager={false}>
+          <IonSlide data-testid="tutorial-slide-1">
             <img src="assets/img/ica-slidebox-img-1.png" alt="" className="slide-image" />
             <h2 className="slide-title">
               Welcome to <b>ICA</b>
@@ -56,7 +56,7 @@ const Tutorial: React.FC<TutorialProps> = ({ history, setHasSeenTutorial, setMen
             </p>
           </IonSlide>
 
-          <IonSlide>
+          <IonSlide data-testid="tutorial-slide-2">
             <img src="assets/img/ica-slidebox-img-2.png" alt="" className="slide-image" />
             <h2 className="slide-title">What is Ionic?</h2>
             <p>
@@ -64,7 +64,7 @@ const Tutorial: React.FC<TutorialProps> = ({ history, setHasSeenTutorial, setMen
             </p>
           </IonSlide>
 
-          <IonSlide>
+          <IonSlide data-testid="tutorial-slide-3">
             <img src="assets/img/ica-slidebox-img-3.png" alt="" className="slide-image" />
             <h2 className="slide-title">What is Ionic Appflow?</h2>
             <p>
@@ -72,10 +72,10 @@ const Tutorial: React.FC<TutorialProps> = ({ history, setHasSeenTutorial, setMen
             </p>
           </IonSlide>
 
-          <IonSlide>
+          <IonSlide data-testid="tutorial-slide-4">
             <img src="assets/img/ica-slidebox-img-4.png" alt="" className="slide-image" />
             <h2 className="slide-title">Ready to Play?</h2>
-            <IonButton fill="clear" onClick={startApp}>
+            <IonButton data-testid="continue-button" fill="clear" onClick={startApp}>
               Continue
               <IonIcon slot="end" icon={arrowForward} />
             </IonButton>

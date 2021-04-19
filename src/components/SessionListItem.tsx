@@ -54,7 +54,7 @@ const SessionListItem: React.FC<SessionListItemProps> = ({ isFavorite, onAddFavo
 
   return (
     <IonItemSliding ref={ionItemSlidingRef} class={'track-' + session.tracks[0].toLowerCase()}>
-      <IonItem routerLink={`/tabs/schedule/${session.id}`}>
+      <IonItem data-testid={`session-${session.id}`} routerLink={`/tabs/schedule/${session.id}`}>
         <IonLabel>
           <h3>{session.name}</h3>
           <p>{session.speakerNames}</p>
@@ -67,11 +67,11 @@ const SessionListItem: React.FC<SessionListItemProps> = ({ isFavorite, onAddFavo
       </IonItem>
       <IonItemOptions>
         {listType === "favorites" ?
-          <IonItemOption color="danger" onClick={() => removeFavoriteSession()}>
+          <IonItemOption data-testid={`favorite-remove-${session.id}`} color="danger" onClick={() => removeFavoriteSession()}>
             Remove
           </IonItemOption>
           :
-          <IonItemOption color="favorite" onClick={addFavoriteSession}>
+          <IonItemOption data-testid={`favorite-add-${session.id}`} color="favorite" onClick={addFavoriteSession}>
             Favorite
           </IonItemOption>
         }

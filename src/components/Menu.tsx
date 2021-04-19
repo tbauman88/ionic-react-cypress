@@ -54,7 +54,7 @@ const Menu: React.FC<MenuProps> = ({ darkMode, history, isAuthenticated, setDark
       .filter(route => !!route.path)
       .map(p => (
         <IonMenuToggle key={p.title} auto-hide="false">
-          <IonItem detail={false} routerLink={p.path} routerDirection="none" className={location.pathname.startsWith(p.path) ? 'selected' : undefined}>
+          <IonItem data-testid={`menu-${p.title.toLowerCase()}`} detail={false} routerLink={p.path} routerDirection="none" className={location.pathname.startsWith(p.path) ? 'selected' : undefined}>
             <IonIcon slot="start" icon={p.icon} />
             <IonLabel>{p.title}</IonLabel>
           </IonItem>
@@ -75,12 +75,12 @@ const Menu: React.FC<MenuProps> = ({ darkMode, history, isAuthenticated, setDark
           <IonItem>
             <IonIcon slot="start" icon={moonOutline}></IonIcon>
             <IonLabel>Dark Mode</IonLabel>
-            <IonToggle checked={darkMode} onClick={() => setDarkMode(!darkMode)} />
+            <IonToggle data-testid="dark-mode-toggle" checked={darkMode} onClick={() => setDarkMode(!darkMode)} />
           </IonItem>
         </IonList>
         <IonList lines="none">
           <IonListHeader>Tutorial</IonListHeader>
-          <IonItem button onClick={() => {
+          <IonItem data-testid='menu-tutorial' button onClick={() => {
             history.push('/tutorial');
           }}>
             <IonIcon slot="start" icon={hammer} />

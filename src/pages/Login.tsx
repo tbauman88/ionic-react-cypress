@@ -59,25 +59,25 @@ const Login: React.FC<LoginProps> = ({setIsLoggedIn, history, setUsername: setUs
           <IonList>
             <IonItem>
               <IonLabel position="stacked" color="primary">Username</IonLabel>
-              <IonInput name="username" type="text" value={username} spellCheck={false} autocapitalize="off" onIonChange={e => setUsername(e.detail.value!)}
+              <IonInput data-testid='username-login' name="username" type="text" value={username} spellCheck={false} autocapitalize="off" onIonChange={e => setUsername(e.detail.value!)}
                 required>
               </IonInput>
             </IonItem>
 
             {formSubmitted && usernameError && <IonText color="danger">
-              <p className="ion-padding-start">
+              <p data-testid="username-error" className="ion-padding-start">
                 Username is required
               </p>
             </IonText>}
 
             <IonItem>
               <IonLabel position="stacked" color="primary">Password</IonLabel>
-              <IonInput name="password" type="password" value={password} onIonChange={e => setPassword(e.detail.value!)}>
+              <IonInput data-testid='password-login' name="password" type="password" value={password} onIonChange={e => setPassword(e.detail.value!)}>
               </IonInput>
             </IonItem>
 
             {formSubmitted && passwordError && <IonText color="danger">
-              <p className="ion-padding-start">
+              <p data-testid="password-error" className="ion-padding-start">
                 Password is required
               </p>
             </IonText>}
@@ -85,7 +85,7 @@ const Login: React.FC<LoginProps> = ({setIsLoggedIn, history, setUsername: setUs
 
           <IonRow>
             <IonCol>
-              <IonButton type="submit" expand="block">Login</IonButton>
+              <IonButton data-testid="login-button" type="submit" expand="block">Login</IonButton>
             </IonCol>
             <IonCol>
               <IonButton routerLink="/signup" color="light" expand="block">Signup</IonButton>

@@ -57,10 +57,10 @@ const SchedulePage: React.FC<SchedulePageProps> = ({ favoritesSchedule, schedule
           }
           {ios &&
             <IonSegment value={segment} onIonChange={(e) => setSegment(e.detail.value as any)}>
-              <IonSegmentButton value="all">
+              <IonSegmentButton data-testid='segment-all' value="all">
                 All
               </IonSegmentButton>
-              <IonSegmentButton value="favorites">
+              <IonSegmentButton data-testid='segment-favorites' value="favorites">
                 Favorites
               </IonSegmentButton>
             </IonSegment>
@@ -69,17 +69,17 @@ const SchedulePage: React.FC<SchedulePageProps> = ({ favoritesSchedule, schedule
             <IonTitle>Schedule</IonTitle>
           }
           {showSearchbar &&
-            <IonSearchbar showCancelButton="always" placeholder="Search" onIonChange={(e: CustomEvent) => setSearchText(e.detail.value)} onIonCancel={() => setShowSearchbar(false)}></IonSearchbar>
+            <IonSearchbar data-testid="search-bar" showCancelButton="always" placeholder="Search" onIonChange={(e: CustomEvent) => setSearchText(e.detail.value)} onIonCancel={() => setShowSearchbar(false)}></IonSearchbar>
           }
 
           <IonButtons slot="end">
             {!ios && !showSearchbar &&
-              <IonButton onClick={() => setShowSearchbar(true)}>
+              <IonButton data-testid="search-icon" onClick={() => setShowSearchbar(true)}>
                 <IonIcon slot="icon-only" icon={search}></IonIcon>
               </IonButton>
             }
             {!showSearchbar &&
-              <IonButton onClick={() => setShowFilterModal(true)}>
+              <IonButton data-testid="filter-icon" onClick={() => setShowFilterModal(true)}>
                 {mode === 'ios' ? 'Filter' : <IonIcon icon={options} slot="icon-only" />}
               </IonButton>
             }
@@ -89,10 +89,10 @@ const SchedulePage: React.FC<SchedulePageProps> = ({ favoritesSchedule, schedule
         {!ios &&
           <IonToolbar>
             <IonSegment value={segment} onIonChange={(e) => setSegment(e.detail.value as any)}>
-              <IonSegmentButton value="all">
+              <IonSegmentButton data-testid='segment-all' value="all">
                 All
               </IonSegmentButton>
-              <IonSegmentButton value="favorites">
+              <IonSegmentButton data-testid='segment-favorites' value="favorites">
                 Favorites
               </IonSegmentButton>
             </IonSegment>
@@ -145,7 +145,7 @@ const SchedulePage: React.FC<SchedulePageProps> = ({ favoritesSchedule, schedule
         />
       </IonModal>
 
-      <ShareSocialFab />
+      <ShareSocialFab/>
 
     </IonPage>
   );
